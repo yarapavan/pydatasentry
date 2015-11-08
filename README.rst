@@ -87,10 +87,7 @@ be stored (local directory 'model-output')
                                "C": [32, 234, 23, 23, 42523]})
         
         result = smf.ols(formula="A ~ B + C", 
-                         data=df, 
-                         sentryopts={
-                             'dataset': "difu"
-                         }
+                         data=df
                      ).fit()
     
         print(result.summary())
