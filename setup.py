@@ -16,5 +16,16 @@ setup(name='pydatasentry',
       ],
       keywords=['pydata', 'pandas', 'documentation', 
                 'regressions', 'tool'],
+      install_requires=[
+          "glob2>=0.4.1",
+          "numpy>=1.9.1",
+          "pandas>=0.15.1",
+          "patsy>=0.4.0",
+          "scikit-learn>=0.16.1",
+          "scipy>=0.16.0",
+          "six>=1.8.0",
+          "sklearn>=0.0",
+          "statsmodels>=0.6.1"
+      ],
       license='MIT',
       )
