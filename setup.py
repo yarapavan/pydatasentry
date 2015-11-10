@@ -1,10 +1,10 @@
 from setuptools import setup
 
 setup(name='pydatasentry',
-      version='0.1.3',
+      version='0.1.4',
       description='Memory tool for Python-Based Data Science',
       url='http://github.com/FourthLion/pydatasentry',
-      download_url='https://github.com/FourthLion/pydatasentry/tarball/0.1.3',
+      download_url='https://github.com/FourthLion/pydatasentry/tarball/0.1.4',
       author='Venkata Pingali',
       author_email='pingali@gmail.com',
       packages=['pydatasentry'],
