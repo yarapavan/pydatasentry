@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='pydatasentry',
-      version='0.1r2',
+      version='0.1.3',
       description='Memory tool for Python-Based Data Science',
       url='http://github.com/FourthLion/pydatasentry',
       download_url='https://github.com/FourthLion/pydatasentry/tarball/0.1r2',
@@ -17,15 +17,6 @@ setup(name='pydatasentry',
       keywords=['pydata', 'pandas', 'documentation', 
                 'regressions', 'tool'],
       install_requires=[
-          "glob2>=0.4.1",
-          "numpy>=1.9.1",
-          "pandas>=0.15.1",
-          "patsy>=0.4.0",
-          "scikit-learn>=0.16.1",
-          "scipy>=0.16.0",
-          "six>=1.8.0",
-          "sklearn>=0.0",
-          "statsmodels>=0.6.1"
       ],
       license='MIT',
       )
