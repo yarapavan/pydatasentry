@@ -12,6 +12,9 @@ regression) You could use this for audit past results for correctness,
 share models and results with peers, search past results to avoid
 repition of work.
 
+Note that code is very alpha. Expect it to break often. Please try it
+out and give me feedback/create issues.
+
 Please see `docs`_ for detailed documentation.
 
 .. _docs: http://pydatasentry.readthedocs.org/en/latest/
