@@ -54,6 +54,7 @@ Installation
 ~~~~~~~~~~~~
 
 ::
+
     pip install glob2 numpy scipy patsy scipy six sklearn statsmodels scikit-learn pandas
     pip install pydatasentry 
 
