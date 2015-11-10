@@ -55,7 +55,7 @@ Installation
 
 ::
 
-    pip install glob2 numpy scipy patsy scipy six sklearn statsmodels scikit-learn pandas
+    pip install glob2 numpy scipy patsy scipy six statsmodels pandas
     pip install pydatasentry 
 
 We need explicit install for now because scikit-learn has numpy
