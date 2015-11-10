@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='pydatasentry',
-      version='0.1-alpha',
+      version='0.1r2',
       description='Memory tool for Python-Based Data Science',
       url='http://github.com/FourthLion/pydatasentry',
       download_url='https://github.com/FourthLion/pydatasentry/tarball/0.1-alpha',
