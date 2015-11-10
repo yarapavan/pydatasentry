@@ -55,9 +55,8 @@ Installation
 
 ::
 
-    git clone git@github.com:FourthLion/pydatasentry.git
-    cd pydatasentry 
-    python setup.py install
+    pip install pydatasentry 
+
 
 Examples 
 ~~~~~~~~~
