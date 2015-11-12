@@ -66,7 +66,10 @@ that we are specifying.
 Examples 
 ~~~~~~~~~
 
-No code change: 
+Here we show instrumentation with no code change, minimal code change,
+and change by a potential power user.
+
+No code change example: 
 ::
 
     $ sentry.py 
@@ -91,7 +94,7 @@ No code change:
 
 
 
-Minimal: 
+Minimal Code Change Example: 
 
 Only two lines are required by default. Please check the config module
 to know what are the defaults for what needs to be captured
