@@ -1,0 +1,47 @@
+#!/usr/bin/env python 
+
+"""
+
+Sample configuration file that could be a starting point. Please edit 
+as it appropriate. This is a python file. So you have the full power
+of python at your disposal.
+
+"""
+
+config = {
+    'debug'	   : False, 
+    'spec': {         
+        
+        # High level experiment information
+        'experiment': { 
+            'scope': 'offers',
+            'run': 'conditional-offers',
+            'version': 1
+        },
+        
+        # Which modules should be instrumented 
+        'instrumentation': {
+            'modules': ['statsmodels.formula.api']
+        },
+        
+        # What should be captured 
+        'output': {
+            'params': [ 
+                {
+                    'content': 'attributes.output.default-signature',
+                    'path': 'attributes.output.relative-path',
+                    'filename': 'signature.json'
+                }
+            ]
+        },
+    
+        # Where should they be stored and how 
+        'store': {
+            'params': ['attributes.storage.local']
+        },
+    }
+}
+
+def get_config(): 
+    return config 
+

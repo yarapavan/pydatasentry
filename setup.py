@@ -16,6 +16,14 @@ setup(name='pydatasentry',
       ],
       keywords=['pydata', 'pandas', 'documentation', 
                 'regressions', 'tool'],
+      scripts=['bin/sentry.py'],
+      #data_files=[
+      #    ('share', ['share/basic_ols.py.template', 
+      #               'share/sentry-conf.py.template'])
+      #],
+      package_data={
+          'pydatasentry': ['share/*template']
+      },
       install_requires=[
       ],
       license='MIT',

@@ -66,6 +66,31 @@ that we are specifying.
 Examples 
 ~~~~~~~~~
 
+No code change: 
+::
+
+    $ sentry.py 
+    <see the help> 
+    sentry: Transparently instrument pandas code
+    sentry.py help
+    sentry.py init <sentry-conf.py>
+    sentry.py run [-c|--config <sentry-conf.py>]  <python-program-to-be-instrumented>
+
+    $ sentry.py example basic_ols.py     
+    <creates a simple OLS regression file> 
+
+    $ sentry.py init sentry-conf.py
+    $ emacs sentry-conf.py
+    <initialize a sentry configuration file and edit> 
+    <update scope and run> 
+
+    $ sentry.py run -c sentry-conf.py basic_ols.py 
+    
+    $ find model-output 
+    <see the output> 
+
+
+
 Minimal: 
 
 Only two lines are required by default. Please check the config module
@@ -194,12 +219,22 @@ output parameters, and tracking lineage.
     
         print(result.summary())
 
+Caveats 
+~~~~~~~
+
+* Only python3 is supported. 
+
+
 Next Steps
 ~~~~~~~~~~
 
-This is just a starting point. We intend to extend the pydatasentry to
-cover other modeling libraries, and capture dependencies. Please let
-me (pingali@gmail.com) know or post an issue
+A number of next steps are planned: 
+
+* Test will several statsmodels libraries
+
+* Improve the instrumentation.
+
+Please let me (pingali@gmail.com) know or post an issue
 
 License
 ~~~~~~~

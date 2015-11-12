@@ -7,6 +7,14 @@ pydatasentry
     :show-inheritance:
     :exclude-members: initialize
 
+Sentry (Commandline Tool)
+----------------------------
+
+.. automodule:: bin.sentry
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 Signature - Capture attributes
 ------------------------------
 
