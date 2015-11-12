@@ -1,5 +1,5 @@
-PyDataSentry - Memory for Data Science
-======================================
+PyDataSentry - Memory for Python-based Data Science
+==================================================
 
 pydatasentry package allows auditability of modeling code and data by
 logging all relevant information for every single model run (e.g., a
